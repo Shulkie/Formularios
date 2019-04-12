@@ -1,0 +1,42 @@
+
+
+body{
+    margin:auto;
+    background-color: lightpink;
+}
+form{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100%;
+    padding: 10% 0 ;
+    color: lemonchiffon;
+    
+    
+}
+
+.titulo{
+
+    font-size: 80px;
+    flex-direction: row;
+    align-self: center;
+}
+
+.aqui{
+    margin-top: 30px;
+    align-self: center;
+    font-size: 150px;
+
+}
+
+.contenido{
+
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    
+   
+}
+
