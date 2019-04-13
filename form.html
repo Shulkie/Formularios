@@ -1,63 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Form</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="form.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-
-</head>
-<body>
-    
-<form action = "paginaQueInventamos.html" method="GET" name="Formularito">
-
-<div class="titulo"> Cumpleanito, asistencia</div>
-<div class="aqui">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="form.css" />
+    <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  </head>
+  <body>
+    <form action="paginaQueInventamos.html" method="GET" name="Formularito">
+      <div class="titulo">Cumpleanito, asistencia</div>
+      <div class="aqui">
         <i class="fas fa-arrow-down"></i>
-</div>
+      </div>
 
-<div class="contenido">
+      <div class="contenido">
+        <div class="nombre">
+          Nombre
+          <input type="text" id="name" />
+        </div>
 
-<div class="nombre">
-Nombre 
-<input type= "text" id="name">
-</div>
+        <div class="edad">
+          Edad
 
-<div class="edad">
+          <input type="text" id="age" />
+        </div>
 
-Edad
+        <div class="estado">
+          Seleccionar estado civil
+          <br />
+          <br />
+          <input type="radio" name="Estado civil" value="Soltere" checked />
+          Soltere <br />
+          <br />
+          <input type="radio" name="Estado civil" value="Casade" /> Casade
+        </div>
 
-<input type="text" id="age">
-</div>
-
-
-<div class="estado">
-Seleccionar estado civil
-<br> <br>
-<input type="radio" name="Estado civil" value="Soltere" checked> Soltere
-<br> <br>
-<input type="radio" name="Estado civil" value="Casade"> Casade 
-
-</div>
-
-<div class="nac">
-Seleccionar Nacionalidad
-
-<select>
-<option value="Ar">Argentina</option>
-<option value="Py">Paraguay</option>
-<option value="Uy">Uruguay</option>
-
-</select>
-</div>
-
-</div>
-
-</form>
-
+        <div class="nac">
+          Seleccionar Nacionalidad
+        <div class="seleccionar">
+          <select>
+            <option value="Ar">Argentina</option>
+            <option value="Py">Paraguay</option>
+            <option value="Uy">Uruguay</option>
+          </select>
+          </div>
+        </div>
+      </div>
+    </form>
 
     <script src="form.js"></script>
-</body>
+  </body>
 </html>

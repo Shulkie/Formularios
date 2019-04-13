@@ -17,7 +17,7 @@ form{
 }
 
 .titulo{
-
+    
     font-size: 80px;
     flex-direction: row;
     align-self: center;
@@ -39,4 +39,10 @@ form{
     
    
 }
-
+select{
+    width:90%;
+    background-color: lightpink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:lemonchiffon;
+    font-size: 20px;
+}
